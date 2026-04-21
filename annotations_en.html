@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Annotations — Manga109</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;500;700;900&family=Bebas+Neue&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="en.html" class="nav-logo">
+      <span class="logo-mark">Manga<span class="logo-accent">109</span></span>
+    </a>
+    <ul class="nav-menu">
+      <li><a href="en.html#about">About</a></li>
+      <li><a href="explore_en.html">Explore</a></li>
+      <li><a href="en.html#us">Us</a></li>
+      <li><a href="annotations_en.html" class="nav-active">Annotations</a></li>
+      <li><a href="en.html#news">News</a></li>
+      <li><a href="publications_en.html">Publications</a></li>
+      <li><a href="en.html#license">License</a></li>
+      <li><a href="en.html#download">Download</a></li>
+      <li class="nav-lang"><a href="annotations.html"><span class="lang-inactive">JA</span> / <span class="lang-active">EN</span></a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<section class="subpage-hero">
+  <div class="container">
+    <span class="section-tag">Annotations</span>
+    <h1 class="subpage-title">Manga109<br>Annotations.</h1>
+    <p class="pub-intro">All works in Manga109 are annotated with detailed labels for characters, faces, bodies, frames, and text. If you wish to use the annotations, please contact us from the <a href="en.html#download">Download</a> page.</p>
+  </div>
+</section>
+
+<section class="section section-anno">
+  <div class="container">
+    <figure class="anno-hero-fig">
+      <img src="asset/annotatoin_exp.png" alt="Example of Manga109 annotations">
+      <figcaption>Example of Manga109 annotations (face, body, frame, and text).</figcaption>
+    </figure>
+    <div class="section-head">
+      <span class="section-tag">01 / Structure</span>
+      <h2 class="section-title">Annotation format.</h2>
+    </div>
+    <p class="anno-lead">Each volume of manga corresponds to a single XML file. The XML files are UTF-8 encoded and structured in the following way.</p>
+    <div class="anno-tree">
+      <ul>
+        <li><code>book</code><span class="anno-tree-desc">Title of the work</span>
+          <ul>
+            <li><code>characters</code><span class="anno-tree-desc">List of characters appearing in the work</span>
+              <ul>
+                <li><code>character</code></li>
+                <li><code>character</code></li>
+                <li class="anno-tree-ellipsis">…</li>
+              </ul>
+            </li>
+            <li><code>pages</code><span class="anno-tree-desc">List of pages in double-page spread manner</span>
+              <ul>
+                <li><code>page</code></li>
+                <li><code>page</code></li>
+                <li class="anno-tree-ellipsis">…</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <p class="anno-lead"><code>character</code> gives the correspondence between each character's name and its ID. <code>page</code> gives an overview (page number, image size) and the objects' information in the page. There are four types of objects; each has an object ID, rectangular area (xmin, xmax, ymin, ymax), and additional information specific to the object type. All IDs are 8-digit hexadecimal numbers and are unique throughout this dataset.</p>
+
+    <div class="anno-types">
+      <article class="anno-type">
+        <div class="anno-type-num">01</div>
+        <h4><code>face</code></h4>
+        <p>Face of a character.</p>
+        <span class="anno-type-extra">Character ID is attached.</span>
+      </article>
+      <article class="anno-type">
+        <div class="anno-type-num">02</div>
+        <h4><code>body</code></h4>
+        <p>Body of a character.</p>
+        <span class="anno-type-extra">Character ID is attached.</span>
+      </article>
+      <article class="anno-type">
+        <div class="anno-type-num">03</div>
+        <h4><code>text</code></h4>
+        <p>Typed text and some handwritten text.</p>
+        <span class="anno-type-extra">Text content is recorded.</span>
+      </article>
+      <article class="anno-type">
+        <div class="anno-type-num">04</div>
+        <h4><code>frame</code></h4>
+        <p>Frame of a panel.</p>
+        <span class="anno-type-extra">No additional information.</span>
+      </article>
+    </div>
+
+    <p class="anno-lead anno-lead-muted">For detailed criteria, please see the <a href="http://www.manga109.org/docs/annotation_criteria.pdf" target="_blank" rel="noopener">Annotation Criteria ↗</a>.</p>
+  </div>
+</section>
+
+<section class="section section-anno-stats">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-tag">02 / Statistics</span>
+      <h2 class="section-title">Statistics.</h2>
+    </div>
+    <div class="anno-table-wrap">
+      <table class="anno-table">
+        <thead>
+          <tr>
+            <th>Version</th>
+            <th class="num">#Volume</th>
+            <th class="num">#Images</th>
+            <th class="num">#Annotated</th>
+            <th class="num">#Face</th>
+            <th class="num">#Body</th>
+            <th class="num">#Text</th>
+            <th class="num">#Frame</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="anno-ver">v2023.12.07</span> <em class="anno-latest">latest</em></td>
+            <td class="num">109</td>
+            <td class="num">10,602</td>
+            <td class="num">10,130</td>
+            <td class="num">118,593</td>
+            <td class="num">157,234</td>
+            <td class="num">147,887</td>
+            <td class="num">103,850</td>
+          </tr>
+          <tr>
+            <td><span class="anno-ver">v2021.12.30</span></td>
+            <td class="num">109</td>
+            <td class="num">10,602</td>
+            <td class="num">10,130</td>
+            <td class="num">118,593</td>
+            <td class="num">157,234</td>
+            <td class="num">147,887</td>
+            <td class="num">103,850</td>
+          </tr>
+          <tr>
+            <td><span class="anno-ver">v2020.12.18</span></td>
+            <td class="num">109</td>
+            <td class="num">10,619</td>
+            <td class="num">10,130</td>
+            <td class="num">118,593</td>
+            <td class="num">157,234</td>
+            <td class="num">147,887</td>
+            <td class="num">103,850</td>
+          </tr>
+          <tr>
+            <td><span class="anno-ver">v2018.05.31</span></td>
+            <td class="num">109</td>
+            <td class="num">10,619</td>
+            <td class="num">10,130</td>
+            <td class="num">118,715</td>
+            <td class="num">157,152</td>
+            <td class="num">147,918</td>
+            <td class="num">103,900</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="section section-anno-xml">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-tag">03 / Example</span>
+      <h2 class="section-title">XML example.</h2>
+    </div>
+    <p class="anno-lead">An excerpt from an XML file is shown below.</p>
+    <pre class="anno-code"><code>&lt;book title="YamatoNoHane"&gt;
+    &lt;characters&gt;
+        &lt;character id="0007a833" name="鳥羽大和"/&gt;
+        &lt;character id="0007a840" name="鳥羽撫子"/&gt;
+        &lt;character id="0007a877" name="沢本翔"/&gt;
+        &lt;character id="0007aac7" name="_Other"/&gt;
+        &lt;character id="0007aafe" name="大和の母"/&gt;
+        &lt;character id="0007ad16" name="サッカー部顧問"/&gt;
+        &lt;character id="0007ad56" name="早坂"/&gt;
+        &lt;character id="0007ad91" name="バドミントン部顧問"/&gt;
+        &lt;character id="0007adc7" name="大和の父"/&gt;
+        &lt;character id="0007b24c" name="高津仁"/&gt;
+        &lt;character id="0007b278" name="小野"/&gt;
+        &lt;character id="0007b451" name="小泉正平"/&gt;
+    &lt;/characters&gt;
+    &lt;pages&gt;
+
+        ...
+
+        &lt;page index="6" width="1654" height="1170"&gt;
+            &lt;text id="0007a8bc" xmin="677" ymin="817" xmax="755" ymax="928"&gt;なかなか奥まで飛ばないし&lt;/text&gt;
+            &lt;body id="0007a8bd" xmin="907" ymin="222" xmax="1060" ymax="500" character="0007a840"/&gt;
+            &lt;body id="0007a8be" xmin="332" ymin="458" xmax="744" ymax="792" character="0007a833"/&gt;
+            &lt;text id="0007a8bf" xmin="58" ymin="181" xmax="134" ymax="407"&gt;オレは運動神経いいからそんなのカンタン&lt;/text&gt;
+            &lt;body id="0007a8c0" xmin="1223" ymin="55" xmax="1567" ymax="500" character="0007a840"/&gt;
+            &lt;text id="0007a8c1" xmin="681" ymin="472" xmax="768" ymax="747"&gt;第一バドミントンなんて女子のやるスポーツだろー？&lt;/text&gt;
+            &lt;text id="0007a8c2" xmin="999" ymin="96" xmax="1040" ymax="152"&gt;肘から前へ&lt;/text&gt;
+            &lt;frame id="0007a8c3" xmin="88" ymin="67" xmax="422" ymax="445"/&gt;
+            &lt;face id="0007a8c7" xmin="393" ymin="944" xmax="423" ymax="979" character="0007a840"/&gt;
+            ...
+        &lt;/page&gt;
+
+        ...
+
+    &lt;/pages&gt;
+&lt;/book&gt;</code></pre>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-bottom">
+      <p>© <a href="https://www.hal.t.u-tokyo.ac.jp/lab/" target="_blank" rel="noopener">Aizawa Yamasaki Matsui Lab</a>, The University of Tokyo.</p>
+      <p><a href="en.html">← Back to Home</a></p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

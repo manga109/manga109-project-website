@@ -1,0 +1,7 @@
+現在のOrganizer
+Kiyoharu Aizawa,相澤清晴,東京大学名誉教授, https://scholar.google.co.jp/citations?hl=ja&user=CJRhhi0AAAAJ&view_op=list_works&sortby=pubdate
+Hikaru Ikuta,幾田光,Mantra Engineer, https://woodrush.github.io/
+Jeonghun Baek,白定勳,東京大学助教, https://jeonghunbaek.notion.site/Jeonghun-Baek-5e50812ade674698bdffe7f4eac5c745
+Atsuyuki Miyai,宮井淳行,東京大学博士課程学生, https://atsumiyai.github.io/
+Shota Onohara,小野原菖太,東京大学修士学生
+

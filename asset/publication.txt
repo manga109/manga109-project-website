@@ -1,0 +1,116 @@
+発表文献
+相澤・山崎・松井研究室での漫画メディア処理についての論文の一部です．
+Hikaru Ikuta Leslie Wöhler Kiyoharu Aizawa
+MangaUB: A Manga Understanding Benchmark for Large Multimodal Models
+IEEE MultiMedia2025, doi: 10.1109/MMUL.2025.3550451.
+paper
+Yingxuan Li Ryota Hinami Kiyoharu Aizawa Yusuke Matsui
+Zero-shot character identification and speaker prediction in comics via iterative multimodal fusion
+ACM Multimedia2024Oct. 28-Nov. 1, 2024, Melbourne VIC, Australia, doi: 110.1145/3664647.3681659
+paperproject page
+Yingxuan Li Kiyoharu Aizawa Yusuke Matsui
+Manga109Dialog A Large-scale Dialogue Dataset for Comics Speaker Detection
+IEEE ICME2024Jul. 15-19, 2024, Niagara Falls, ON, Canada, doi: 10.1109/ICME57554.2024.10687709
+paper
+Hikaru Ikuta Leslie Wöhler Kiyoharu Aizawa
+Statistical characteristics of comic panel viewing times
+Scientific Reports2023vol. 13, no. 1, p. 20291, November 2023, doi: 10.1038/s41598-023-47120-w.
+paper
+Jeonghun Baek Yusuke Matsui Kiyoharu Aizawa
+COO: Comic Onomatopoeia Dataset for Recognizing Arbitrary or Truncated Texts
+ECCV2022
+paper
+Kiyoharu Aizawa Azuma Fujimoto Atsushi Otsubo Toru Ogawa Yusuke Matsui Koki Tsubota Hikaru Ikuta
+Building a Manga Dataset "Manga109" with Annotations for Multimedia Applications
+IEEE MultiMedia2020vol. 27, no. 2, pp. 8-18, 1 April-June 2020, doi: 10.1109/MMUL.2020.2987895.
+paper
+Koki Tsubota Daiki Ikami Kiyoharu Aizawa
+Synthesis of Screentone Patterns of Manga Characters
+IEEE ISM2019, shortDec. 9-11, 2019, San Diego
+paper
+Kiyoharu Aizawa
+Building a Manga Dataset Manga109 for Multimedia Applications (Keynote talk)
+IEEE MMSP2019Sep. 27-30, 2019, Kuala Lumpur, Malaysia
+Rei Narita Keigo Hirakawa Kiyoharu Aizawa
+Optical Flow based Line Drawing Frame Interpolation using Distance Transform to Support Inbetweenings
+IEEE ICIP2019WQ.L1.3, Sep.22-25, 2019, Taipei, Taiwan doi: 10.1109/ICIP.2019.8803506
+paper
+Toru Ogawa Atsushi Otsubo Rei Narita Yusuke Matsui Toshihiko Yamasaki Kiyoharu Aizawa
+Object Detection for Comics using Manga109 Annotations
+arXiv2018
+paper
+Koki Tsubota Toru Ogawa Toshihiko Yamasaki Kiyoharu Aizawa
+Adaptation of Manga Face Representation for Accurate Clustering
+ACM SIGGRAPH Asia2018, posterDec. 4-7, 2018, Tokyo
+paper
+Rei Narita Koki Tsubota Toshihiko Yamasaki Kiyoharu Aizawa
+Sketch-based Manga Retrieval using Deep Features
+ICDAR, Workshop MANPU2017pp.49-53, November 10, 2017, Kyoto, Japan
+paper
+Paulina Hensman Kiyoharu Aizawa
+cGAN-based Manga Colorization Using a Single Training Image
+ICDAR, Workshop MANPU2017pp.72-77, November 10, 2017, Kyoto, Japan
+paperarXiv
+Azuma Fujimoto Toru Ogawa Kazuyoshi Yamamoto Yusuke Matsui Toshihiko Yamasaki Kiyoharu Aizawa
+Manga109 Dataset and Creation of Metadata
+International Conference on Pattern Recognition workshop MANPU (The First International Workshop on coMics ANalysis, Processing and Understanding)2016
+paper
+Yusuke Matsui Kota Ito Yuji Aramaki Azuma Fujimoto Toru Ogawa Toshihiko Yamasaki Kiyoharu Aizawa
+Sketch-based Manga Retrieval using Manga109 Dataset
+Multimedia Tools and Applications, Springer
+paper
+Kota Ito Yusuke Matsui Toshihiko Yamasaki Kiyoharu Aizawa
+Interactive Region Segmentation for Manga
+International Conference on Pattern Recognition2016(accepted)
+Toru Ogawa Yusuke Matsui Toshihiko Yamasaki Kiyoharu Aizawa
+Sketch Simplification by Classifying Strokes
+International Conference on Pattern Recognition2016(accepted)
+Yusuke Matsui Takaaki Shiratori Kiyoharu Aizawa
+DrawFromDrawings: 2D Drawing Assistance via Stroke Interpolation with a Sketch Database
+IEEE Transactions on Visualization and Computer Graphics2016
+paper
+Yuji Aramaki Yusuke Matsui Toshihiko Yamasaki Kiyoharu Aizawa
+Text detection in manga by combining connected-component-based and region-based classifications
+IEEE International Conference on Image Processing2016
+paperdataset
+Yusuke Matsui Kota Ito Yuji Aramaki Toshihiko Yamasaki Kiyoharu Aizawa
+Sketch-based Manga Retrieval using Manga109 Dataset
+arXiv2015
+paper
+Yuji Aramaki Yusuke Matsui Toshihiko Yamasaki Kiyoharu Aizawa
+Interactive Segmentation for Manga using Lossless Thinning and Coarse Labeling
+APSIPA ASC2015
+paper
+Yusuke Matsui
+Challenge for Manga Processing: Sketch-based Manga Retrieval
+ACM Multimedia Doctoral Symposium2015
+paper
+Samu Kovanen Kiyoharu Aizawa
+A Layered Method For Determining Manga Text Bubble Reading Order
+IEEE International Conference on Image Processing2015
+Kota Ito Yusuke Matsui Toshihiko Yamasaki Kiyoharu Aizawa
+Separation of Manga Line Drawings and Screentones
+Eurographics Short Paper2015
+code
+Kazuhiro Sato Yusuke Matsui Toshihiko Yamasaki Kiyoharu Aizawa
+Reference-based Manga Colorization by Graph Correspondence Using Quadratic Programming
+ACM SIGGRAPH Asia Technical Brief2014
+paper
+Yusuke Matsui Kiyoharu Aizawa Yushi Jing
+Sketch2Manga: Sketch-based Manga Retrieval
+IEEE International Conference on Image Processing2014
+Yuji Aramaki Yusuke Matsui Toshihiko Yamasaki Kiyoharu Aizawa
+Interactive Segmentation for Manga
+ACM SIGGRAPH Poster2014
+Daiki Matsumoto Yusuke Matsui Toshihiko Yamasaki Kiyoharu Aizawa Takanori Katagiri
+IllustStyleMap: Visualization of Illustrations based on Similarity of Drawing Style of Authors
+ACM SIGGRAPH Poster2014
+paper
+Zhipeng Wu Kiyoharu Aizawa
+MangaWall: Generating manga pages for real-time applications
+IEEE Acoustics, Speech and Signal Processing2014
+paper
+Yusuke Matsui Toshihiko Yamasaki Kiyoharu Aizawa
+Interactive Manga Retargeting
+ACM SIGGRAPH Poster2011
+paper
