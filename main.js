@@ -1,3 +1,7 @@
+// Resolve asset paths relative to this script's location,
+// so HTML pages under ja/ or en/ still see the shared /asset/ folder.
+const ASSET_BASE = new URL('.', document.currentScript.src).href;
+
 // Mobile nav toggle
 const navToggle = document.querySelector('.nav-toggle');
 const navMenu = document.querySelector('.nav-menu');
@@ -51,7 +55,7 @@ function buildRow(id, offset = 0) {
     const num = String(idx + 1).padStart(3, '0');
     tiles.push(
       `<div class="gallery-tile">
-         <img src="asset/images_crop/${encodeURIComponent(folder)}.jpg" alt="${title}" loading="lazy" onerror="this.remove()">
+         <img src="${ASSET_BASE}asset/images_crop/${encodeURIComponent(folder)}.jpg" alt="${title}" loading="lazy" onerror="this.remove()">
          <div class="gallery-tile-meta">
            <span class="tile-num">#${num}</span>
            <span class="tile-title">${title}</span>

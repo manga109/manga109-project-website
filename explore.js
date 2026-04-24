@@ -1,4 +1,5 @@
 (function () {
+  const ASSET_BASE = new URL('.', document.currentScript.src).href;
   const DATA = window.MANGA_EXPLORE || [];
   const body = document.getElementById('explore-body');
   const search = document.getElementById('search');
@@ -68,7 +69,7 @@
           ? `<a href="${d.url}" target="_blank" rel="noopener">${escape(d.title)}</a>`
           : escape(d.title);
         const sBadge = d.s ? '<span class="badge-s">✓</span>' : '<span class="badge-no">—</span>';
-        const coverSrc = `asset/images_crop/${encodeURIComponent(d.folder)}.jpg`;
+        const coverSrc = `${ASSET_BASE}asset/images_crop/${encodeURIComponent(d.folder)}.jpg`;
         return `
           <tr>
             <td class="num-col">${d.num}</td>
