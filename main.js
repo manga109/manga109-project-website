@@ -55,7 +55,7 @@ function buildRow(id, offset = 0) {
     const num = String(idx + 1).padStart(3, '0');
     tiles.push(
       `<div class="gallery-tile">
-         <img src="${ASSET_BASE}asset/images_crop/${encodeURIComponent(folder)}.jpg" alt="${title}" loading="lazy" onerror="this.remove()">
+         <img src="${ASSET_BASE}asset/images_crop/${encodeURIComponent(folder)}.webp" alt="${title}" loading="lazy" onerror="this.remove()">
          <div class="gallery-tile-meta">
            <span class="tile-num">#${num}</span>
            <span class="tile-title">${title}</span>

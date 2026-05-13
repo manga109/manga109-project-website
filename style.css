@@ -173,7 +173,7 @@ ul, ol { list-style: none; }
 .hero-bg {
   position: absolute; inset: 0; z-index: 0;
   overflow: hidden;
-  background-image: url('asset/background.png');
+  background-image: url('asset/background.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
